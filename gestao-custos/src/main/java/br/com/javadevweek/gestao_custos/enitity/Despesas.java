@@ -32,8 +32,7 @@ public class Despesas {
     @CreationTimestamp
     private LocalDate dataCriacao;
 
-
-    //getters e setters
+    // getters e setters
     public UUID getId() {
         return id;
     }
@@ -89,8 +88,6 @@ public class Despesas {
     public void setDataCriacao(LocalDate dataCriacao) {
         this.dataCriacao = dataCriacao;
     }
-
-
 
     @Override
     public String toString() {
